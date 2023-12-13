@@ -4,9 +4,9 @@ with open("README.md", "r",encoding="utf-8") as f:
     long_description = f.read()
 
 __version__ ="0.0.0"
-REPO_NAME = "Text_summarization"
-AUTHOR_USERNAME ="srirao"
-SRC_REPO = "textsummarizer"
+REPO_NAME = "Text-Summarizer"
+AUTHOR_USERNAME ="srinivas-dheekonda"
+SRC_REPO = "textsummerizer"
 AUTHOR_EMAIL = "vasuvasu.srinu1996@gmail.com"
 
 
@@ -18,8 +18,12 @@ setuptools.setup(
     description="a samll python pakceges for NLP project",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/srirao/Text_summarization",
+    url="https://github.com/{AUTHOR_USERNAME}/{REPO_NAME}",
+
     project_urls={
         "Bug tracker": "https://github.com/{AUTHOR_USERNAME}/{REPO_NAME}/issues",
+    },
+    package_dir={"":"src"},
+    packages=setuptools.find_packages(where="src")
 
-    })
+)

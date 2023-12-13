@@ -1,4 +1,4 @@
-from textsummerizer.logging import logger
+from src.textsummerizer.logging import logger
 
-
-logger.info("welcome to our custom ")
+logger.info("welcome to our custom logging")
+ 

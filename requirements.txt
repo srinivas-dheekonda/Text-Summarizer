@@ -1,3 +1,8 @@
+transformers
+transformers[sentencepiece]
+datasets
+torch
+sacrebleu
 pandas
 nltk
 tqdm
@@ -11,5 +16,6 @@ python-box==6.0.2
 ensure==1.0.2
 fastapi==0.78.0
 --pre unicorn
-PyYAML 
+PyYAML
+Jinja2==3.1.2
 -e .

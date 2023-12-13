@@ -3,7 +3,7 @@ import logging
 from pathlib import Path
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s')
 
-projet_name = " textsummerizer"
+projet_name = "textsummerizer"
 list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{projet_name}/__init__.py",
